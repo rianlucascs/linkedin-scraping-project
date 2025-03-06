@@ -68,6 +68,8 @@ Este projeto tem como objetivo realizar o scraping de vagas do LinkedIn com base
 
 ---
 
+> **Nota:** Após executar o script, faça login na sua conta do LinkedIn ou crie uma nova. O programa criará uma pasta com o nome dos cargos pesquisados, contendo as vagas correspondentes em seu interior.
+
 ## Contato
 
 Estou à disposição para esclarecer dúvidas ou fornecer mais informações. Você pode entrar em contato através das seguintes opções:
@@ -75,6 +77,5 @@ Estou à disposição para esclarecer dúvidas ou fornecer mais informações. V
 - **LinkedIn:** [Visite meu perfil no LinkedIn](www.linkedin.com/in/rian-lucas)
 - **GitHub:** [Explore meu repositório no GitHub](https://github.com/rianlucascs)
 - **Celular:** +55 (61) 996437950
-
 
 Fico sempre aberto a colaborações e oportunidades de networking!
