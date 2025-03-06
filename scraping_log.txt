@@ -1,1 +1,1 @@
-2025-03-05 21:01:21,057 - INFO - Iniciando ScrapingLinkedin para a URL: https://www.linkedin.com/jobs/search/?keywords=Engenheiro de Dados SR Sênior&geoId=106057199
+2025-03-05 21:44:05,886 - INFO - Iniciando ScrapingLinkedin para a URL: https://www.linkedin.com/jobs/search/?keywords=Engenheiro de Dados SR Sênior&geoId=106057199
