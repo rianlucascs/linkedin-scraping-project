@@ -354,7 +354,7 @@ class ScrapingLinkedin:
                     pass
 
 if __name__ == "__main__":
-
+    
     cargo = "Engenheiro de Dados SR Sênior"
     scraping_linkedin = ScrapingLinkedin(cargo)
     scraping_linkedin.main()
