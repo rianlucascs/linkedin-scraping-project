@@ -1,293 +1,203 @@
-2025-03-05 22:23:12,630 - INFO - Iniciando ScrapingLinkedin para a URL: https://www.linkedin.com/jobs/search/?keywords=Data Engineer&geoId=106057199
-2025-03-05 22:23:16,881 - INFO - Página https://www.linkedin.com/jobs/search/?keywords=Data Engineer&geoId=106057199 carregada com sucesso.
-2025-03-05 22:23:16,905 - INFO - Aguardando o elemento xpath = //*[@id="searchFilter_timePostedRange"] por até 300 segundos.
-2025-03-05 22:23:45,936 - INFO - Elemento xpath = //*[@id="searchFilter_timePostedRange"] encontrado com sucesso.
-2025-03-05 22:23:45,943 - INFO - Aguardando o elemento xpath = //*[@id="searchFilter_timePostedRange"] por até 300 segundos.
-2025-03-05 22:23:46,203 - INFO - Elemento xpath = //*[@id="searchFilter_timePostedRange"] encontrado com sucesso.
-2025-03-05 22:23:46,204 - INFO - Buscando o elemento xpath = //*[@id="main"]/div/div[2]/div[1]/header/div[1]/small/div/span.
-2025-03-05 22:23:46,248 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[1]/header/div[1]/small/div/span encontrado.
-2025-03-05 22:23:46,312 - INFO - Quantidade de vagas: '964 resultados' para Data Engineer.
-2025-03-05 22:23:46,348 - INFO - >> Quantidade de vagas int: 964
-2025-03-05 22:23:46,373 - INFO - Paginação ativada.
-2025-03-05 22:23:46,374 - INFO - Buscando o elemento id = jobs-search-results-footer.
-2025-03-05 22:23:46,401 - INFO - Elemento id = jobs-search-results-footer encontrado.
-2025-03-05 22:23:46,402 - INFO - Buscando os elementos tag name = div.
-2025-03-05 22:23:46,443 - INFO - Elementos encontrados com tag name = div. Total de elementos: 4
-2025-03-05 22:23:46,699 - INFO - ID dinâmico da página: ember253
-2025-03-05 22:23:46,700 - INFO - Quantidade de vagas maior que 25.
-2025-03-05 22:23:46,702 - INFO - Buscando o elemento xpath = //*[@id="ember253"]/div.
-2025-03-05 22:23:47,769 - INFO - Elemento xpath = //*[@id="ember253"]/div encontrado.
-2025-03-05 22:23:47,899 - INFO - Informações de paginação: {'pagina_atual': 1, 'quantidade_de_paginas': 39}
-2025-03-05 22:23:47,900 - INFO - Buscando o elemento id = jobs-search-results-footer.
-2025-03-05 22:23:47,928 - INFO - Elemento id = jobs-search-results-footer encontrado.
-2025-03-05 22:23:47,929 - INFO - Buscando o elemento xpath = //*[@id="main"]/div/div[2]/div[1]/div/ul.
-2025-03-05 22:23:47,974 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[1]/div/ul encontrado.
-2025-03-05 22:23:47,974 - INFO - Buscando os elementos tag name = li.
-2025-03-05 22:23:48,022 - INFO - Elementos encontrados com tag name = li. Total de elementos: 41
-2025-03-05 22:23:48,022 - INFO - Número de vagas encontradas na página: 41
-2025-03-05 22:23:48,050 - INFO - obj_vaga = <selenium.webdriver.remote.webelement.WebElement (session="6a271e016c4410153acd08bb722934f8", element="f.ABD3A65E1A046CECAAC2B413F19DAD5D.d.04B8010CA7EA7993C454B3ABCA4D3F46.e.287")>
-2025-03-05 22:23:51,487 - INFO - Aguardando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article por até 15 segundos.
-2025-03-05 22:23:51,622 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado com sucesso.
-2025-03-05 22:23:51,623 - INFO - Buscando o elemento xpath = //*[@id="ember162"].
-2025-03-05 22:23:51,640 - INFO - Elemento xpath = //*[@id="ember162"] encontrado.
-2025-03-05 22:23:51,690 - INFO - Buscando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article.
-2025-03-05 22:23:51,701 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado.
-2025-03-05 22:23:51,849 - INFO - Arquivo já existe em: c:\Users\xxis4\Desktop\linkedin-vagas-scraping\data\extracted_data\Data Engineer\pessoa_engenheira_de_dados_junior_dados_ia-efi_bank.txt
-2025-03-05 22:23:51,850 - INFO - página: 1 | id: ember162 | info: ['Pessoa Engenheira de Dados Júnior - Dados & IA', 'Efí Bank']
-2025-03-05 22:23:54,941 - INFO - obj_vaga = <selenium.webdriver.remote.webelement.WebElement (session="6a271e016c4410153acd08bb722934f8", element="f.ABD3A65E1A046CECAAC2B413F19DAD5D.d.04B8010CA7EA7993C454B3ABCA4D3F46.e.291")>
-2025-03-05 22:23:58,448 - INFO - Aguardando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article por até 15 segundos.
-2025-03-05 22:23:58,471 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado com sucesso.
-2025-03-05 22:23:58,471 - INFO - Buscando o elemento xpath = //*[@id="ember172"].
-2025-03-05 22:23:58,498 - INFO - Elemento xpath = //*[@id="ember172"] encontrado.
-2025-03-05 22:23:58,552 - INFO - Buscando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article.
-2025-03-05 22:23:58,568 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado.
-2025-03-05 22:23:58,739 - INFO - Arquivo já existe em: c:\Users\xxis4\Desktop\linkedin-vagas-scraping\data\extracted_data\Data Engineer\data_engineer_specialist-bernoulli_educacao.txt
-2025-03-05 22:23:58,740 - INFO - página: 1 | id: ember172 | info: ['DATA ENGINEER SPECIALIST', 'Bernoulli Educação']
-2025-03-05 22:24:01,822 - INFO - obj_vaga = <selenium.webdriver.remote.webelement.WebElement (session="6a271e016c4410153acd08bb722934f8", element="f.ABD3A65E1A046CECAAC2B413F19DAD5D.d.04B8010CA7EA7993C454B3ABCA4D3F46.e.294")>
-2025-03-05 22:24:05,246 - INFO - Aguardando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article por até 15 segundos.
-2025-03-05 22:24:05,310 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado com sucesso.
-2025-03-05 22:24:05,314 - INFO - Buscando o elemento xpath = //*[@id="ember182"].
-2025-03-05 22:24:05,376 - INFO - Elemento xpath = //*[@id="ember182"] encontrado.
-2025-03-05 22:24:05,448 - INFO - Buscando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article.
-2025-03-05 22:24:05,461 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado.
-2025-03-05 22:24:05,491 - INFO - Arquivo já existe em: c:\Users\xxis4\Desktop\linkedin-vagas-scraping\data\extracted_data\Data Engineer\machine_learning_engineer-bask_health.txt
-2025-03-05 22:24:05,492 - INFO - página: 1 | id: ember182 | info: ['Machine Learning Engineer', 'Bask Health']
-2025-03-05 22:24:08,537 - INFO - obj_vaga = <selenium.webdriver.remote.webelement.WebElement (session="6a271e016c4410153acd08bb722934f8", element="f.ABD3A65E1A046CECAAC2B413F19DAD5D.d.04B8010CA7EA7993C454B3ABCA4D3F46.e.298")>
-2025-03-05 22:24:11,835 - INFO - Aguardando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article por até 15 segundos.
-2025-03-05 22:24:11,864 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado com sucesso.
-2025-03-05 22:24:11,865 - INFO - Buscando o elemento xpath = //*[@id="ember192"].
-2025-03-05 22:24:11,889 - INFO - Elemento xpath = //*[@id="ember192"] encontrado.
-2025-03-05 22:24:11,927 - INFO - Buscando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article.
-2025-03-05 22:24:11,941 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado.
-2025-03-05 22:24:12,050 - INFO - Arquivo já existe em: c:\Users\xxis4\Desktop\linkedin-vagas-scraping\data\extracted_data\Data Engineer\data_engineer_with_verification-quartile.txt
-2025-03-05 22:24:12,051 - INFO - página: 1 | id: ember192 | info: ['Data Engineer with verification', 'Quartile']
-2025-03-05 22:24:15,103 - INFO - obj_vaga = <selenium.webdriver.remote.webelement.WebElement (session="6a271e016c4410153acd08bb722934f8", element="f.ABD3A65E1A046CECAAC2B413F19DAD5D.d.04B8010CA7EA7993C454B3ABCA4D3F46.e.301")>
-2025-03-05 22:24:18,351 - INFO - Aguardando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article por até 15 segundos.
-2025-03-05 22:24:18,422 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado com sucesso.
-2025-03-05 22:24:18,426 - INFO - Buscando o elemento xpath = //*[@id="ember202"].
-2025-03-05 22:24:18,450 - INFO - Elemento xpath = //*[@id="ember202"] encontrado.
-2025-03-05 22:24:18,496 - INFO - Buscando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article.
-2025-03-05 22:24:18,515 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado.
-2025-03-05 22:24:18,619 - INFO - Arquivo já existe em: c:\Users\xxis4\Desktop\linkedin-vagas-scraping\data\extracted_data\Data Engineer\data_engineer-wrs_health.txt
-2025-03-05 22:24:18,621 - INFO - página: 1 | id: ember202 | info: ['Data Engineer', 'WRS Health']
-2025-03-05 22:24:21,690 - INFO - obj_vaga = <selenium.webdriver.remote.webelement.WebElement (session="6a271e016c4410153acd08bb722934f8", element="f.ABD3A65E1A046CECAAC2B413F19DAD5D.d.04B8010CA7EA7993C454B3ABCA4D3F46.e.304")>
-2025-03-05 22:24:24,764 - INFO - Aguardando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article por até 15 segundos.
-2025-03-05 22:24:24,805 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado com sucesso.
-2025-03-05 22:24:24,807 - INFO - Buscando o elemento xpath = //*[@id="ember212"].
-2025-03-05 22:24:24,830 - INFO - Elemento xpath = //*[@id="ember212"] encontrado.
-2025-03-05 22:24:24,866 - INFO - Buscando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article.
-2025-03-05 22:24:24,881 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado.
-2025-03-05 22:24:24,968 - INFO - Arquivo já existe em: c:\Users\xxis4\Desktop\linkedin-vagas-scraping\data\extracted_data\Data Engineer\data_engineer_with_verification-mindgruvemacarta.txt
-2025-03-05 22:24:24,969 - INFO - página: 1 | id: ember212 | info: ['Data Engineer with verification', 'MindgruveMacarta']
-2025-03-05 22:24:28,037 - INFO - obj_vaga = <selenium.webdriver.remote.webelement.WebElement (session="6a271e016c4410153acd08bb722934f8", element="f.ABD3A65E1A046CECAAC2B413F19DAD5D.d.04B8010CA7EA7993C454B3ABCA4D3F46.e.307")>
-2025-03-05 22:24:31,568 - INFO - Aguardando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article por até 15 segundos.
-2025-03-05 22:24:31,625 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado com sucesso.
-2025-03-05 22:24:31,627 - INFO - Buscando o elemento xpath = //*[@id="ember222"].
-2025-03-05 22:24:31,665 - INFO - Elemento xpath = //*[@id="ember222"] encontrado.
-2025-03-05 22:24:31,714 - INFO - Buscando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article.
-2025-03-05 22:24:31,727 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado.
-2025-03-05 22:24:31,813 - INFO - Arquivo já existe em: c:\Users\xxis4\Desktop\linkedin-vagas-scraping\data\extracted_data\Data Engineer\data_engineer_weather_desk_with_verification-louis_dreyfus_company.txt
-2025-03-05 22:24:31,815 - INFO - página: 1 | id: ember222 | info: ['Data Engineer (Weather Desk) with verification', 'Louis Dreyfus Company']
-2025-03-05 22:24:34,893 - INFO - obj_vaga = <selenium.webdriver.remote.webelement.WebElement (session="6a271e016c4410153acd08bb722934f8", element="f.ABD3A65E1A046CECAAC2B413F19DAD5D.d.04B8010CA7EA7993C454B3ABCA4D3F46.e.310")>
-2025-03-05 22:24:38,295 - INFO - Aguardando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article por até 15 segundos.
-2025-03-05 22:24:38,343 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado com sucesso.
-2025-03-05 22:24:38,345 - INFO - Buscando o elemento xpath = //*[@id="ember232"].
-2025-03-05 22:24:38,365 - INFO - Elemento xpath = //*[@id="ember232"] encontrado.
-2025-03-05 22:24:38,401 - INFO - Buscando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article.
-2025-03-05 22:24:38,419 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado.
-2025-03-05 22:24:38,546 - INFO - Arquivo já existe em: c:\Users\xxis4\Desktop\linkedin-vagas-scraping\data\extracted_data\Data Engineer\data_engineer_associate_with_verification-clara.txt
-2025-03-05 22:24:38,547 - INFO - página: 1 | id: ember232 | info: ['Data Engineer Associate with verification', 'Clara']
-2025-03-05 22:24:41,583 - INFO - obj_vaga = <selenium.webdriver.remote.webelement.WebElement (session="6a271e016c4410153acd08bb722934f8", element="f.ABD3A65E1A046CECAAC2B413F19DAD5D.d.04B8010CA7EA7993C454B3ABCA4D3F46.e.311")>
-2025-03-05 22:24:44,841 - INFO - Aguardando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article por até 15 segundos.
-2025-03-05 22:24:44,892 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado com sucesso.
-2025-03-05 22:24:44,894 - INFO - Buscando o elemento xpath = //*[@id="ember233"].
-2025-03-05 22:24:44,917 - INFO - Elemento xpath = //*[@id="ember233"] encontrado.
-2025-03-05 22:24:44,956 - INFO - Buscando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article.
-2025-03-05 22:24:44,970 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado.
-2025-03-05 22:24:45,035 - INFO - Arquivo já existe em: c:\Users\xxis4\Desktop\linkedin-vagas-scraping\data\extracted_data\Data Engineer\data_engineer-bees.txt
-2025-03-05 22:24:45,036 - INFO - página: 1 | id: ember233 | info: ['Data Engineer', 'BEES']
-2025-03-05 22:24:48,079 - INFO - obj_vaga = <selenium.webdriver.remote.webelement.WebElement (session="6a271e016c4410153acd08bb722934f8", element="f.ABD3A65E1A046CECAAC2B413F19DAD5D.d.04B8010CA7EA7993C454B3ABCA4D3F46.e.312")>
-2025-03-05 22:24:51,161 - INFO - Aguardando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article por até 15 segundos.
-2025-03-05 22:24:51,179 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado com sucesso.
-2025-03-05 22:24:51,182 - INFO - Buscando o elemento xpath = //*[@id="ember234"].
-2025-03-05 22:24:51,211 - INFO - Elemento xpath = //*[@id="ember234"] encontrado.
-2025-03-05 22:24:51,256 - INFO - Buscando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article.
-2025-03-05 22:24:51,275 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado.
-2025-03-05 22:24:51,344 - INFO - Arquivo já existe em: c:\Users\xxis4\Desktop\linkedin-vagas-scraping\data\extracted_data\Data Engineer\data_engineer-luxevision_consulting_llc.txt
-2025-03-05 22:24:51,345 - INFO - página: 1 | id: ember234 | info: ['Data Engineer', 'Luxevision Consulting LLC']
-2025-03-05 22:24:54,374 - INFO - obj_vaga = <selenium.webdriver.remote.webelement.WebElement (session="6a271e016c4410153acd08bb722934f8", element="f.ABD3A65E1A046CECAAC2B413F19DAD5D.d.04B8010CA7EA7993C454B3ABCA4D3F46.e.313")>
-2025-03-05 22:24:57,508 - INFO - Aguardando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article por até 15 segundos.
-2025-03-05 22:24:57,551 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado com sucesso.
-2025-03-05 22:24:57,554 - INFO - Buscando o elemento xpath = //*[@id="ember235"].
-2025-03-05 22:24:57,577 - INFO - Elemento xpath = //*[@id="ember235"] encontrado.
-2025-03-05 22:24:57,618 - INFO - Buscando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article.
-2025-03-05 22:24:57,638 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado.
-2025-03-05 22:24:57,701 - INFO - Arquivo já existe em: c:\Users\xxis4\Desktop\linkedin-vagas-scraping\data\extracted_data\Data Engineer\analytics_engineer-brasil_paralelo.txt
-2025-03-05 22:24:57,701 - INFO - página: 1 | id: ember235 | info: ['Analytics Engineer', 'Brasil Paralelo']
-2025-03-05 22:25:00,848 - INFO - obj_vaga = <selenium.webdriver.remote.webelement.WebElement (session="6a271e016c4410153acd08bb722934f8", element="f.ABD3A65E1A046CECAAC2B413F19DAD5D.d.04B8010CA7EA7993C454B3ABCA4D3F46.e.314")>
-2025-03-05 22:25:04,248 - INFO - Aguardando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article por até 15 segundos.
-2025-03-05 22:25:04,292 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado com sucesso.
-2025-03-05 22:25:04,293 - INFO - Buscando o elemento xpath = //*[@id="ember236"].
-2025-03-05 22:25:04,316 - INFO - Elemento xpath = //*[@id="ember236"] encontrado.
-2025-03-05 22:25:04,357 - INFO - Buscando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article.
-2025-03-05 22:25:04,372 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado.
-2025-03-05 22:25:04,442 - INFO - Arquivo já existe em: c:\Users\xxis4\Desktop\linkedin-vagas-scraping\data\extracted_data\Data Engineer\machine_learning_engineer_sponsor_us_h1b-meriti_inc.txt
-2025-03-05 22:25:04,443 - INFO - página: 1 | id: ember236 | info: ['Machine Learning Engineer | Sponsor US H1B', 'Meriti Inc']
-2025-03-05 22:25:07,474 - INFO - obj_vaga = <selenium.webdriver.remote.webelement.WebElement (session="6a271e016c4410153acd08bb722934f8", element="f.ABD3A65E1A046CECAAC2B413F19DAD5D.d.04B8010CA7EA7993C454B3ABCA4D3F46.e.315")>
-2025-03-05 22:25:10,605 - INFO - Aguardando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article por até 15 segundos.
-2025-03-05 22:25:10,639 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado com sucesso.
-2025-03-05 22:25:10,640 - INFO - Buscando o elemento xpath = //*[@id="ember237"].
-2025-03-05 22:25:10,666 - INFO - Elemento xpath = //*[@id="ember237"] encontrado.
-2025-03-05 22:25:10,705 - INFO - Buscando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article.
-2025-03-05 22:25:10,720 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado.
-2025-03-05 22:25:10,786 - INFO - Arquivo já existe em: c:\Users\xxis4\Desktop\linkedin-vagas-scraping\data\extracted_data\Data Engineer\data_engineer-halliburton.txt
-2025-03-05 22:25:10,787 - INFO - página: 1 | id: ember237 | info: ['Data Engineer', 'Halliburton']
-2025-03-05 22:25:13,819 - INFO - obj_vaga = <selenium.webdriver.remote.webelement.WebElement (session="6a271e016c4410153acd08bb722934f8", element="f.ABD3A65E1A046CECAAC2B413F19DAD5D.d.04B8010CA7EA7993C454B3ABCA4D3F46.e.316")>
-2025-03-05 22:25:17,353 - INFO - Aguardando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article por até 15 segundos.
-2025-03-05 22:25:17,411 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado com sucesso.
-2025-03-05 22:25:17,413 - INFO - Buscando o elemento xpath = //*[@id="ember238"].
-2025-03-05 22:25:17,438 - INFO - Elemento xpath = //*[@id="ember238"] encontrado.
-2025-03-05 22:25:17,476 - INFO - Buscando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article.
-2025-03-05 22:25:17,492 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado.
-2025-03-05 22:25:17,574 - INFO - Arquivo já existe em: c:\Users\xxis4\Desktop\linkedin-vagas-scraping\data\extracted_data\Data Engineer\data_engineer-strm_music.txt
-2025-03-05 22:25:17,576 - INFO - página: 1 | id: ember238 | info: ['Data Engineer', 'Strm Music']
-2025-03-05 22:25:20,605 - INFO - obj_vaga = <selenium.webdriver.remote.webelement.WebElement (session="6a271e016c4410153acd08bb722934f8", element="f.ABD3A65E1A046CECAAC2B413F19DAD5D.d.04B8010CA7EA7993C454B3ABCA4D3F46.e.317")>
-2025-03-05 22:25:23,828 - INFO - Aguardando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article por até 15 segundos.
-2025-03-05 22:25:23,881 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado com sucesso.
-2025-03-05 22:25:23,882 - INFO - Buscando o elemento xpath = //*[@id="ember239"].
-2025-03-05 22:25:23,903 - INFO - Elemento xpath = //*[@id="ember239"] encontrado.
-2025-03-05 22:25:23,936 - INFO - Buscando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article.
-2025-03-05 22:25:23,950 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado.
-2025-03-05 22:25:24,035 - INFO - Arquivo já existe em: c:\Users\xxis4\Desktop\linkedin-vagas-scraping\data\extracted_data\Data Engineer\data_engineer-azion.txt
-2025-03-05 22:25:24,036 - INFO - página: 1 | id: ember239 | info: ['Data Engineer', 'Azion']
-2025-03-05 22:25:27,076 - INFO - obj_vaga = <selenium.webdriver.remote.webelement.WebElement (session="6a271e016c4410153acd08bb722934f8", element="f.ABD3A65E1A046CECAAC2B413F19DAD5D.d.04B8010CA7EA7993C454B3ABCA4D3F46.e.318")>
-2025-03-05 22:25:30,449 - INFO - Aguardando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article por até 15 segundos.
-2025-03-05 22:25:30,516 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado com sucesso.
-2025-03-05 22:25:30,518 - INFO - Buscando o elemento xpath = //*[@id="ember240"].
-2025-03-05 22:25:30,540 - INFO - Elemento xpath = //*[@id="ember240"] encontrado.
-2025-03-05 22:25:30,582 - INFO - Buscando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article.
-2025-03-05 22:25:30,599 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado.
-2025-03-05 22:25:30,679 - INFO - Arquivo já existe em: c:\Users\xxis4\Desktop\linkedin-vagas-scraping\data\extracted_data\Data Engineer\data_engineer_databricks_with_verification-factored_.txt
-2025-03-05 22:25:30,680 - INFO - página: 1 | id: ember240 | info: ['Data Engineer (Databricks) with verification', 'Factored ']
-2025-03-05 22:25:33,715 - INFO - obj_vaga = <selenium.webdriver.remote.webelement.WebElement (session="6a271e016c4410153acd08bb722934f8", element="f.ABD3A65E1A046CECAAC2B413F19DAD5D.d.04B8010CA7EA7993C454B3ABCA4D3F46.e.319")>
-2025-03-05 22:25:36,847 - INFO - Aguardando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article por até 15 segundos.
-2025-03-05 22:25:36,890 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado com sucesso.
-2025-03-05 22:25:36,891 - INFO - Buscando o elemento xpath = //*[@id="ember241"].
-2025-03-05 22:25:36,914 - INFO - Elemento xpath = //*[@id="ember241"] encontrado.
-2025-03-05 22:25:36,955 - INFO - Buscando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article.
-2025-03-05 22:25:36,972 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado.
-2025-03-05 22:25:37,046 - INFO - Arquivo já existe em: c:\Users\xxis4\Desktop\linkedin-vagas-scraping\data\extracted_data\Data Engineer\banco_de_talentos_data_engineer-semantix.txt
-2025-03-05 22:25:37,048 - INFO - página: 1 | id: ember241 | info: ['Banco de Talentos Data Engineer', 'Semantix']
-2025-03-05 22:25:40,088 - INFO - obj_vaga = <selenium.webdriver.remote.webelement.WebElement (session="6a271e016c4410153acd08bb722934f8", element="f.ABD3A65E1A046CECAAC2B413F19DAD5D.d.04B8010CA7EA7993C454B3ABCA4D3F46.e.320")>
-2025-03-05 22:25:43,221 - INFO - Aguardando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article por até 15 segundos.
-2025-03-05 22:25:43,266 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado com sucesso.
-2025-03-05 22:25:43,267 - INFO - Buscando o elemento xpath = //*[@id="ember242"].
-2025-03-05 22:25:43,292 - INFO - Elemento xpath = //*[@id="ember242"] encontrado.
-2025-03-05 22:25:43,337 - INFO - Buscando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article.
-2025-03-05 22:25:43,352 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado.
-2025-03-05 22:25:43,428 - INFO - Arquivo já existe em: c:\Users\xxis4\Desktop\linkedin-vagas-scraping\data\extracted_data\Data Engineer\engenheiro_de_dados_microsoft_fabric-kpmg_brasil.txt
-2025-03-05 22:25:43,430 - INFO - página: 1 | id: ember242 | info: ['Engenheiro de dados - Microsoft Fabric', 'KPMG Brasil']
-2025-03-05 22:25:46,464 - INFO - obj_vaga = <selenium.webdriver.remote.webelement.WebElement (session="6a271e016c4410153acd08bb722934f8", element="f.ABD3A65E1A046CECAAC2B413F19DAD5D.d.04B8010CA7EA7993C454B3ABCA4D3F46.e.321")>
-2025-03-05 22:25:49,593 - INFO - Aguardando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article por até 15 segundos.
-2025-03-05 22:25:49,644 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado com sucesso.
-2025-03-05 22:25:49,646 - INFO - Buscando o elemento xpath = //*[@id="ember243"].
-2025-03-05 22:25:49,672 - INFO - Elemento xpath = //*[@id="ember243"] encontrado.
-2025-03-05 22:25:49,736 - INFO - Buscando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article.
-2025-03-05 22:25:49,755 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado.
-2025-03-05 22:25:49,874 - INFO - Arquivo já existe em: c:\Users\xxis4\Desktop\linkedin-vagas-scraping\data\extracted_data\Data Engineer\data_scientist_sr_machine_learning_engineer_with_verification-keyrus.txt
-2025-03-05 22:25:49,875 - INFO - página: 1 | id: ember243 | info: ['Data Scientist Sr (Machine Learning Engineer) with verification', 'Keyrus']
-2025-03-05 22:25:52,914 - INFO - obj_vaga = <selenium.webdriver.remote.webelement.WebElement (session="6a271e016c4410153acd08bb722934f8", element="f.ABD3A65E1A046CECAAC2B413F19DAD5D.d.04B8010CA7EA7993C454B3ABCA4D3F46.e.322")>
-2025-03-05 22:25:56,118 - INFO - Aguardando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article por até 15 segundos.
-2025-03-05 22:25:56,158 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado com sucesso.
-2025-03-05 22:25:56,160 - INFO - Buscando o elemento xpath = //*[@id="ember244"].
-2025-03-05 22:25:56,186 - INFO - Elemento xpath = //*[@id="ember244"] encontrado.
-2025-03-05 22:25:56,233 - INFO - Buscando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article.
-2025-03-05 22:25:56,248 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado.
-2025-03-05 22:25:56,322 - INFO - Arquivo já existe em: c:\Users\xxis4\Desktop\linkedin-vagas-scraping\data\extracted_data\Data Engineer\engenheiro_de_dados_remoto_with_verification-getronics.txt
-2025-03-05 22:25:56,324 - INFO - página: 1 | id: ember244 | info: ['Engenheiro de Dados - Remoto with verification', 'Getronics']
-2025-03-05 22:25:59,354 - INFO - obj_vaga = <selenium.webdriver.remote.webelement.WebElement (session="6a271e016c4410153acd08bb722934f8", element="f.ABD3A65E1A046CECAAC2B413F19DAD5D.d.04B8010CA7EA7993C454B3ABCA4D3F46.e.323")>
-2025-03-05 22:26:02,564 - INFO - Aguardando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article por até 15 segundos.
-2025-03-05 22:26:02,610 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado com sucesso.
-2025-03-05 22:26:02,611 - INFO - Buscando o elemento xpath = //*[@id="ember245"].
-2025-03-05 22:26:02,633 - INFO - Elemento xpath = //*[@id="ember245"] encontrado.
-2025-03-05 22:26:02,669 - INFO - Buscando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article.
-2025-03-05 22:26:02,684 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado.
-2025-03-05 22:26:02,757 - INFO - Arquivo já existe em: c:\Users\xxis4\Desktop\linkedin-vagas-scraping\data\extracted_data\Data Engineer\desenvolvedor_software_porto_alegre_e_regiao_rs_oportunidade_aberta-empregos_vagas_divulga_vagas_br.txt
-2025-03-05 22:26:02,758 - INFO - página: 1 | id: ember245 | info: ['DESENVOLVEDOR SOFTWARE – PORTO ALEGRE E REGIÃO – RS - OPORTUNIDADE ABERTA', 'Empregos & VAGAS -DIVULGA VAGAS BR']
-2025-03-05 22:26:05,794 - INFO - obj_vaga = <selenium.webdriver.remote.webelement.WebElement (session="6a271e016c4410153acd08bb722934f8", element="f.ABD3A65E1A046CECAAC2B413F19DAD5D.d.04B8010CA7EA7993C454B3ABCA4D3F46.e.324")>
-2025-03-05 22:26:08,917 - INFO - Aguardando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article por até 15 segundos.
-2025-03-05 22:26:08,960 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado com sucesso.
-2025-03-05 22:26:08,961 - INFO - Buscando o elemento xpath = //*[@id="ember246"].
-2025-03-05 22:26:08,986 - INFO - Elemento xpath = //*[@id="ember246"] encontrado.
-2025-03-05 22:26:09,026 - INFO - Buscando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article.
-2025-03-05 22:26:09,043 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado.
-2025-03-05 22:26:09,116 - INFO - Arquivo já existe em: c:\Users\xxis4\Desktop\linkedin-vagas-scraping\data\extracted_data\Data Engineer\data_engineer_analyst_brazil-world_business_lenders_llc.txt
-2025-03-05 22:26:09,118 - INFO - página: 1 | id: ember246 | info: ['Data Engineer Analyst - Brazil', 'World Business Lenders, LLC']
-2025-03-05 22:26:12,158 - INFO - obj_vaga = <selenium.webdriver.remote.webelement.WebElement (session="6a271e016c4410153acd08bb722934f8", element="f.ABD3A65E1A046CECAAC2B413F19DAD5D.d.04B8010CA7EA7993C454B3ABCA4D3F46.e.325")>
-2025-03-05 22:26:15,614 - INFO - Aguardando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article por até 15 segundos.
-2025-03-05 22:26:15,655 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado com sucesso.
-2025-03-05 22:26:15,658 - INFO - Buscando o elemento xpath = //*[@id="ember247"].
-2025-03-05 22:26:15,687 - INFO - Elemento xpath = //*[@id="ember247"] encontrado.
-2025-03-05 22:26:15,724 - INFO - Buscando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article.
-2025-03-05 22:26:15,740 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado.
-2025-03-05 22:26:15,826 - INFO - Arquivo já existe em: c:\Users\xxis4\Desktop\linkedin-vagas-scraping\data\extracted_data\Data Engineer\desenvolvedor_a_java_porto_alegre_rs_oportunidade_aberta-empregos_vagas_divulga_vagas_br.txt
-2025-03-05 22:26:15,827 - INFO - página: 1 | id: ember247 | info: ['DESENVOLVEDOR (A) JAVA – PORTO ALEGRE – RS - OPORTUNIDADE ABERTA', 'Empregos & VAGAS -DIVULGA VAGAS BR']
-2025-03-05 22:26:18,861 - INFO - obj_vaga = <selenium.webdriver.remote.webelement.WebElement (session="6a271e016c4410153acd08bb722934f8", element="f.ABD3A65E1A046CECAAC2B413F19DAD5D.d.04B8010CA7EA7993C454B3ABCA4D3F46.e.326")>
-2025-03-05 22:26:21,991 - INFO - Aguardando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article por até 15 segundos.
-2025-03-05 22:26:22,033 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado com sucesso.
-2025-03-05 22:26:22,036 - INFO - Buscando o elemento xpath = //*[@id="ember248"].
-2025-03-05 22:26:22,056 - INFO - Elemento xpath = //*[@id="ember248"] encontrado.
-2025-03-05 22:26:22,091 - INFO - Buscando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article.
-2025-03-05 22:26:22,107 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado.
-2025-03-05 22:26:22,186 - INFO - Arquivo já existe em: c:\Users\xxis4\Desktop\linkedin-vagas-scraping\data\extracted_data\Data Engineer\desenvolvedor_apex_e_java_porto_alegre_rs_oportunidade_aberta-empregos_vagas_divulga_vagas_br.txt
-2025-03-05 22:26:22,188 - INFO - página: 1 | id: ember248 | info: ['DESENVOLVEDOR APEX E JAVA – PORTO ALEGRE – RS - OPORTUNIDADE ABERTA', 'Empregos & VAGAS -DIVULGA VAGAS BR']
-2025-03-05 22:26:25,223 - INFO - obj_vaga = <selenium.webdriver.remote.webelement.WebElement (session="6a271e016c4410153acd08bb722934f8", element="f.ABD3A65E1A046CECAAC2B413F19DAD5D.d.04B8010CA7EA7993C454B3ABCA4D3F46.e.327")>
-2025-03-05 22:26:28,360 - INFO - Aguardando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article por até 15 segundos.
-2025-03-05 22:26:28,405 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado com sucesso.
-2025-03-05 22:26:28,406 - INFO - Buscando o elemento xpath = //*[@id="ember249"].
-2025-03-05 22:26:28,430 - INFO - Elemento xpath = //*[@id="ember249"] encontrado.
-2025-03-05 22:26:28,471 - INFO - Buscando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article.
-2025-03-05 22:26:28,489 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado.
-2025-03-05 22:26:28,573 - INFO - Arquivo já existe em: c:\Users\xxis4\Desktop\linkedin-vagas-scraping\data\extracted_data\Data Engineer\desenvolvedor_java_empresa_de_ti_em_porto_alegre_rs_porto_alegre_rs_oportunidade_aberta-empregos_vagas_divulga_vagas_br.txt
-2025-03-05 22:26:28,574 - INFO - página: 1 | id: ember249 | info: ['DESENVOLVEDOR JAVA – EMPRESA DE TI EM PORTO ALEGRE – RS – PORTO ALEGRE – RS - OPORTUNIDADE ABERTA', 'Empregos & VAGAS -DIVULGA VAGAS BR']
-2025-03-05 22:26:31,579 - INFO - Buscando o elemento xpath = //*[@id="ember253"]/div.
-2025-03-05 22:26:31,633 - INFO - Elemento xpath = //*[@id="ember253"]/div encontrado.
-2025-03-05 22:26:31,646 - INFO - Informações de paginação: {'pagina_atual': 1, 'quantidade_de_paginas': 39}
-2025-03-05 22:26:31,647 - INFO - Aguardando o elemento css selector = [data-test-pagination-page-btn="2"] por até 10 segundos.
-2025-03-05 22:26:31,668 - INFO - Elemento css selector = [data-test-pagination-page-btn="2"] encontrado com sucesso.
-2025-03-05 22:26:32,217 - INFO - Buscando o elemento id = jobs-search-results-footer.
-2025-03-05 22:26:32,562 - INFO - Elemento id = jobs-search-results-footer encontrado.
-2025-03-05 22:26:32,564 - INFO - Buscando o elemento xpath = //*[@id="main"]/div/div[2]/div[1]/div/ul.
-2025-03-05 22:26:32,662 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[1]/div/ul encontrado.
-2025-03-05 22:26:32,663 - INFO - Buscando os elementos tag name = li.
-2025-03-05 22:26:32,836 - INFO - Elementos encontrados com tag name = li. Total de elementos: 42
-2025-03-05 22:26:32,836 - INFO - Número de vagas encontradas na página: 42
-2025-03-05 22:26:33,240 - INFO - obj_vaga = <selenium.webdriver.remote.webelement.WebElement (session="6a271e016c4410153acd08bb722934f8", element="f.ABD3A65E1A046CECAAC2B413F19DAD5D.d.04B8010CA7EA7993C454B3ABCA4D3F46.e.406")>
-2025-03-05 22:26:36,598 - INFO - Aguardando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article por até 15 segundos.
-2025-03-05 22:26:36,623 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado com sucesso.
-2025-03-05 22:26:36,624 - INFO - Buscando o elemento xpath = //*[@id="ember709"].
-2025-03-05 22:26:36,703 - INFO - Elemento xpath = //*[@id="ember709"] encontrado.
-2025-03-05 22:26:36,844 - INFO - Buscando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article.
-2025-03-05 22:26:36,872 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado.
-2025-03-05 22:26:36,956 - INFO - Arquivo salvo em: c:\Users\xxis4\Desktop\linkedin-vagas-scraping\data\extracted_data\Data Engineer\data_engineer-netvagas.txt
-2025-03-05 22:26:36,957 - INFO - página: 2 | id: ember709 | info: ['Data engineer', 'Netvagas']
-2025-03-05 22:26:40,044 - INFO - obj_vaga = <selenium.webdriver.remote.webelement.WebElement (session="6a271e016c4410153acd08bb722934f8", element="f.ABD3A65E1A046CECAAC2B413F19DAD5D.d.04B8010CA7EA7993C454B3ABCA4D3F46.e.410")>
-2025-03-05 22:26:43,419 - INFO - Aguardando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article por até 15 segundos.
-2025-03-05 22:26:43,472 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado com sucesso.
-2025-03-05 22:26:43,474 - INFO - Buscando o elemento xpath = //*[@id="ember719"].
-2025-03-05 22:26:43,494 - INFO - Elemento xpath = //*[@id="ember719"] encontrado.
-2025-03-05 22:26:43,524 - INFO - Buscando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article.
-2025-03-05 22:26:43,538 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado.
-2025-03-05 22:26:43,626 - INFO - Arquivo salvo em: c:\Users\xxis4\Desktop\linkedin-vagas-scraping\data\extracted_data\Data Engineer\senior_data_engineer_4065-amyris.txt
-2025-03-05 22:26:43,627 - INFO - página: 2 | id: ember719 | info: ['Senior Data Engineer (4065)', 'Amyris']
-2025-03-05 22:26:46,701 - INFO - obj_vaga = <selenium.webdriver.remote.webelement.WebElement (session="6a271e016c4410153acd08bb722934f8", element="f.ABD3A65E1A046CECAAC2B413F19DAD5D.d.04B8010CA7EA7993C454B3ABCA4D3F46.e.413")>
-2025-03-05 22:26:50,121 - INFO - Aguardando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article por até 15 segundos.
-2025-03-05 22:26:50,192 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado com sucesso.
-2025-03-05 22:26:50,197 - INFO - Buscando o elemento xpath = //*[@id="ember729"].
-2025-03-05 22:26:50,260 - INFO - Elemento xpath = //*[@id="ember729"] encontrado.
-2025-03-05 22:26:50,358 - INFO - Buscando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article.
-2025-03-05 22:26:50,376 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado.
-2025-03-05 22:26:50,539 - INFO - Arquivo salvo em: c:\Users\xxis4\Desktop\linkedin-vagas-scraping\data\extracted_data\Data Engineer\senior_analytics_engineer_with_verification-loggi.txt
-2025-03-05 22:26:50,541 - INFO - página: 2 | id: ember729 | info: ['Sênior Analytics Engineer with verification', 'Loggi']
-2025-03-05 22:26:53,650 - INFO - obj_vaga = <selenium.webdriver.remote.webelement.WebElement (session="6a271e016c4410153acd08bb722934f8", element="f.ABD3A65E1A046CECAAC2B413F19DAD5D.d.04B8010CA7EA7993C454B3ABCA4D3F46.e.417")>
-2025-03-05 22:26:57,104 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None)': /session/6a271e016c4410153acd08bb722934f8
+2025-03-06 16:20:33,394 - INFO - Iniciando ScrapingLinkedin para a URL: https://www.linkedin.com/jobs/search/?keywords=Data Engineer&geoId=106057199
+2025-03-06 16:20:37,936 - INFO - Página https://www.linkedin.com/jobs/search/?keywords=Data Engineer&geoId=106057199 carregada com sucesso.
+2025-03-06 16:20:37,938 - INFO - Aguardando o elemento xpath = //*[@id="searchFilter_timePostedRange"] por até 300 segundos.
+2025-03-06 16:22:19,752 - INFO - Elemento xpath = //*[@id="searchFilter_timePostedRange"] encontrado com sucesso.
+2025-03-06 16:22:19,753 - INFO - Aguardando o elemento xpath = //*[@id="searchFilter_timePostedRange"] por até 300 segundos.
+2025-03-06 16:22:19,818 - INFO - Elemento xpath = //*[@id="searchFilter_timePostedRange"] encontrado com sucesso.
+2025-03-06 16:22:19,819 - INFO - Buscando o elemento xpath = //*[@id="main"]/div/div[2]/div[1]/header/div[1]/small/div/span.
+2025-03-06 16:22:19,949 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[1]/header/div[1]/small/div/span encontrado.
+2025-03-06 16:22:20,001 - INFO - Quantidade de vagas: '969 resultados' para Data Engineer.
+2025-03-06 16:22:20,237 - INFO - >> Quantidade de vagas int: 969
+2025-03-06 16:22:20,363 - INFO - Paginação ativada.
+2025-03-06 16:22:20,364 - INFO - Buscando o elemento id = jobs-search-results-footer.
+2025-03-06 16:22:21,100 - INFO - Elemento id = jobs-search-results-footer encontrado.
+2025-03-06 16:22:21,101 - INFO - Buscando os elementos tag name = div.
+2025-03-06 16:22:21,181 - INFO - Elementos encontrados com tag name = div. Total de elementos: 4
+2025-03-06 16:22:21,234 - INFO - ID dinâmico da página: ember253
+2025-03-06 16:22:21,235 - INFO - Quantidade de vagas maior que 25.
+2025-03-06 16:22:21,236 - INFO - Buscando o elemento xpath = //*[@id="ember253"]/div.
+2025-03-06 16:22:21,315 - INFO - Elemento xpath = //*[@id="ember253"]/div encontrado.
+2025-03-06 16:22:21,392 - INFO - Informações de paginação: {'pagina_atual': 1, 'quantidade_de_paginas': 39}
+2025-03-06 16:22:21,393 - INFO - Buscando o elemento id = jobs-search-results-footer.
+2025-03-06 16:22:21,439 - INFO - Elemento id = jobs-search-results-footer encontrado.
+2025-03-06 16:22:21,440 - INFO - Buscando o elemento xpath = //*[@id="main"]/div/div[2]/div[1]/div/ul.
+2025-03-06 16:22:21,472 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[1]/div/ul encontrado.
+2025-03-06 16:22:21,473 - INFO - Buscando os elementos tag name = li.
+2025-03-06 16:22:21,505 - INFO - Elementos encontrados com tag name = li. Total de elementos: 44
+2025-03-06 16:22:21,506 - INFO - Número de vagas encontradas na página: 44
+2025-03-06 16:22:21,518 - INFO - obj_vaga = <selenium.webdriver.remote.webelement.WebElement (session="f777ebb80ae81ea7d217fbb711eb240f", element="f.FAE8ADEEB5442386DF025D4298B637E1.d.B39FB00D6157591D1DAFA3518C897EEC.e.237")>
+2025-03-06 16:22:24,989 - INFO - Aguardando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article por até 15 segundos.
+2025-03-06 16:22:25,061 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado com sucesso.
+2025-03-06 16:22:25,064 - INFO - Buscando o elemento xpath = //*[@id="ember162"].
+2025-03-06 16:22:25,133 - INFO - Elemento xpath = //*[@id="ember162"] encontrado.
+2025-03-06 16:22:25,184 - INFO - Buscando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article.
+2025-03-06 16:22:25,196 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado.
+2025-03-06 16:22:25,522 - INFO - Arquivo salvo em: c:\Users\xxis4\Desktop\linkedin-vagas-scraping\data\extracted_data\Data Engineer\pessoa_engenheira_de_dados_junior_dados_ia-efi_bank.txt
+2025-03-06 16:22:25,523 - INFO - página: 1 | id: ember162 | info: ['Pessoa Engenheira de Dados Júnior - Dados & IA', 'Efí Bank']
+2025-03-06 16:22:28,569 - INFO - obj_vaga = <selenium.webdriver.remote.webelement.WebElement (session="f777ebb80ae81ea7d217fbb711eb240f", element="f.FAE8ADEEB5442386DF025D4298B637E1.d.B39FB00D6157591D1DAFA3518C897EEC.e.241")>
+2025-03-06 16:22:31,917 - INFO - Aguardando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article por até 15 segundos.
+2025-03-06 16:22:31,966 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado com sucesso.
+2025-03-06 16:22:31,968 - INFO - Buscando o elemento xpath = //*[@id="ember172"].
+2025-03-06 16:22:31,991 - INFO - Elemento xpath = //*[@id="ember172"] encontrado.
+2025-03-06 16:22:32,038 - INFO - Buscando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article.
+2025-03-06 16:22:32,052 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado.
+2025-03-06 16:22:32,146 - INFO - Arquivo salvo em: c:\Users\xxis4\Desktop\linkedin-vagas-scraping\data\extracted_data\Data Engineer\data_engineer_specialist-bernoulli_educacao.txt
+2025-03-06 16:22:32,148 - INFO - página: 1 | id: ember172 | info: ['DATA ENGINEER SPECIALIST', 'Bernoulli Educação']
+2025-03-06 16:22:35,175 - INFO - obj_vaga = <selenium.webdriver.remote.webelement.WebElement (session="f777ebb80ae81ea7d217fbb711eb240f", element="f.FAE8ADEEB5442386DF025D4298B637E1.d.B39FB00D6157591D1DAFA3518C897EEC.e.244")>
+2025-03-06 16:22:38,485 - INFO - Aguardando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article por até 15 segundos.
+2025-03-06 16:22:38,503 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado com sucesso.
+2025-03-06 16:22:38,505 - INFO - Buscando o elemento xpath = //*[@id="ember182"].
+2025-03-06 16:22:38,537 - INFO - Elemento xpath = //*[@id="ember182"] encontrado.
+2025-03-06 16:22:38,591 - INFO - Buscando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article.
+2025-03-06 16:22:38,605 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado.
+2025-03-06 16:22:38,642 - INFO - Arquivo salvo em: c:\Users\xxis4\Desktop\linkedin-vagas-scraping\data\extracted_data\Data Engineer\machine_learning_engineer-bask_health.txt
+2025-03-06 16:22:38,644 - INFO - página: 1 | id: ember182 | info: ['Machine Learning Engineer', 'Bask Health']
+2025-03-06 16:22:41,753 - INFO - obj_vaga = <selenium.webdriver.remote.webelement.WebElement (session="f777ebb80ae81ea7d217fbb711eb240f", element="f.FAE8ADEEB5442386DF025D4298B637E1.d.B39FB00D6157591D1DAFA3518C897EEC.e.248")>
+2025-03-06 16:22:45,026 - INFO - Aguardando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article por até 15 segundos.
+2025-03-06 16:22:45,049 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado com sucesso.
+2025-03-06 16:22:45,050 - INFO - Buscando o elemento xpath = //*[@id="ember192"].
+2025-03-06 16:22:45,081 - INFO - Elemento xpath = //*[@id="ember192"] encontrado.
+2025-03-06 16:22:45,147 - INFO - Buscando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article.
+2025-03-06 16:22:45,165 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado.
+2025-03-06 16:22:45,259 - INFO - Arquivo salvo em: c:\Users\xxis4\Desktop\linkedin-vagas-scraping\data\extracted_data\Data Engineer\data_engineer_with_verification-mindgruvemacarta.txt
+2025-03-06 16:22:45,260 - INFO - página: 1 | id: ember192 | info: ['Data Engineer with verification', 'MindgruveMacarta']
+2025-03-06 16:22:48,364 - INFO - obj_vaga = <selenium.webdriver.remote.webelement.WebElement (session="f777ebb80ae81ea7d217fbb711eb240f", element="f.FAE8ADEEB5442386DF025D4298B637E1.d.B39FB00D6157591D1DAFA3518C897EEC.e.252")>
+2025-03-06 16:22:51,820 - INFO - Aguardando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article por até 15 segundos.
+2025-03-06 16:22:51,908 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado com sucesso.
+2025-03-06 16:22:51,911 - INFO - Buscando o elemento xpath = //*[@id="ember202"].
+2025-03-06 16:22:51,945 - INFO - Elemento xpath = //*[@id="ember202"] encontrado.
+2025-03-06 16:22:52,020 - INFO - Buscando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article.
+2025-03-06 16:22:52,035 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado.
+2025-03-06 16:22:52,168 - INFO - Arquivo salvo em: c:\Users\xxis4\Desktop\linkedin-vagas-scraping\data\extracted_data\Data Engineer\senior_data_engineer-intellectsoft.txt
+2025-03-06 16:22:52,170 - INFO - página: 1 | id: ember202 | info: ['Senior Data Engineer', 'Intellectsoft']
+2025-03-06 16:22:55,273 - INFO - obj_vaga = <selenium.webdriver.remote.webelement.WebElement (session="f777ebb80ae81ea7d217fbb711eb240f", element="f.FAE8ADEEB5442386DF025D4298B637E1.d.B39FB00D6157591D1DAFA3518C897EEC.e.256")>
+2025-03-06 16:22:58,904 - INFO - Aguardando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article por até 15 segundos.
+2025-03-06 16:22:58,966 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado com sucesso.
+2025-03-06 16:22:58,970 - INFO - Buscando o elemento xpath = //*[@id="ember212"].
+2025-03-06 16:22:59,053 - INFO - Elemento xpath = //*[@id="ember212"] encontrado.
+2025-03-06 16:22:59,189 - INFO - Buscando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article.
+2025-03-06 16:22:59,215 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado.
+2025-03-06 16:22:59,587 - INFO - Arquivo salvo em: c:\Users\xxis4\Desktop\linkedin-vagas-scraping\data\extracted_data\Data Engineer\data_engineer_associate_with_verification-clara.txt
+2025-03-06 16:22:59,589 - INFO - página: 1 | id: ember212 | info: ['Data Engineer Associate with verification', 'Clara']
+2025-03-06 16:23:02,642 - INFO - obj_vaga = <selenium.webdriver.remote.webelement.WebElement (session="f777ebb80ae81ea7d217fbb711eb240f", element="f.FAE8ADEEB5442386DF025D4298B637E1.d.B39FB00D6157591D1DAFA3518C897EEC.e.259")>
+2025-03-06 16:23:07,339 - INFO - Aguardando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article por até 15 segundos.
+2025-03-06 16:23:07,435 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado com sucesso.
+2025-03-06 16:23:07,439 - INFO - Buscando o elemento xpath = //*[@id="ember222"].
+2025-03-06 16:23:08,380 - INFO - Elemento xpath = //*[@id="ember222"] encontrado.
+2025-03-06 16:23:09,229 - INFO - Buscando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article.
+2025-03-06 16:23:09,246 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado.
+2025-03-06 16:23:09,359 - INFO - Arquivo salvo em: c:\Users\xxis4\Desktop\linkedin-vagas-scraping\data\extracted_data\Data Engineer\data_engineer-bees.txt
+2025-03-06 16:23:09,360 - INFO - página: 1 | id: ember222 | info: ['Data Engineer', 'BEES']
+2025-03-06 16:23:12,445 - INFO - obj_vaga = <selenium.webdriver.remote.webelement.WebElement (session="f777ebb80ae81ea7d217fbb711eb240f", element="f.FAE8ADEEB5442386DF025D4298B637E1.d.B39FB00D6157591D1DAFA3518C897EEC.e.263")>
+2025-03-06 16:23:15,534 - INFO - Aguardando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article por até 15 segundos.
+2025-03-06 16:23:15,560 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado com sucesso.
+2025-03-06 16:23:15,561 - INFO - Buscando o elemento xpath = //*[@id="ember232"].
+2025-03-06 16:23:15,599 - INFO - Elemento xpath = //*[@id="ember232"] encontrado.
+2025-03-06 16:23:15,632 - INFO - página: 1 | id: ember232 | info: []
+2025-03-06 16:23:18,658 - INFO - obj_vaga = <selenium.webdriver.remote.webelement.WebElement (session="f777ebb80ae81ea7d217fbb711eb240f", element="f.FAE8ADEEB5442386DF025D4298B637E1.d.B39FB00D6157591D1DAFA3518C897EEC.e.264")>
+2025-03-06 16:23:21,758 - INFO - Aguardando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article por até 15 segundos.
+2025-03-06 16:23:21,804 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado com sucesso.
+2025-03-06 16:23:21,806 - INFO - Buscando o elemento xpath = //*[@id="ember233"].
+2025-03-06 16:23:21,834 - INFO - Elemento xpath = //*[@id="ember233"] encontrado.
+2025-03-06 16:23:21,850 - INFO - página: 1 | id: ember233 | info: []
+2025-03-06 16:23:24,884 - INFO - obj_vaga = <selenium.webdriver.remote.webelement.WebElement (session="f777ebb80ae81ea7d217fbb711eb240f", element="f.FAE8ADEEB5442386DF025D4298B637E1.d.B39FB00D6157591D1DAFA3518C897EEC.e.265")>
+2025-03-06 16:23:28,019 - INFO - Aguardando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article por até 15 segundos.
+2025-03-06 16:23:28,062 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado com sucesso.
+2025-03-06 16:23:28,063 - INFO - Buscando o elemento xpath = //*[@id="ember234"].
+2025-03-06 16:23:28,093 - INFO - Elemento xpath = //*[@id="ember234"] encontrado.
+2025-03-06 16:23:28,109 - INFO - página: 1 | id: ember234 | info: []
+2025-03-06 16:23:31,129 - INFO - obj_vaga = <selenium.webdriver.remote.webelement.WebElement (session="f777ebb80ae81ea7d217fbb711eb240f", element="f.FAE8ADEEB5442386DF025D4298B637E1.d.B39FB00D6157591D1DAFA3518C897EEC.e.266")>
+2025-03-06 16:23:34,244 - INFO - Aguardando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article por até 15 segundos.
+2025-03-06 16:23:34,256 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado com sucesso.
+2025-03-06 16:23:34,256 - INFO - Buscando o elemento xpath = //*[@id="ember235"].
+2025-03-06 16:23:34,284 - INFO - Elemento xpath = //*[@id="ember235"] encontrado.
+2025-03-06 16:23:34,302 - INFO - página: 1 | id: ember235 | info: []
+2025-03-06 16:23:37,329 - INFO - obj_vaga = <selenium.webdriver.remote.webelement.WebElement (session="f777ebb80ae81ea7d217fbb711eb240f", element="f.FAE8ADEEB5442386DF025D4298B637E1.d.B39FB00D6157591D1DAFA3518C897EEC.e.267")>
+2025-03-06 16:23:40,398 - INFO - Aguardando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article por até 15 segundos.
+2025-03-06 16:23:40,441 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado com sucesso.
+2025-03-06 16:23:40,442 - INFO - Buscando o elemento xpath = //*[@id="ember236"].
+2025-03-06 16:23:40,473 - INFO - Elemento xpath = //*[@id="ember236"] encontrado.
+2025-03-06 16:23:40,489 - INFO - página: 1 | id: ember236 | info: []
+2025-03-06 16:23:43,576 - INFO - obj_vaga = <selenium.webdriver.remote.webelement.WebElement (session="f777ebb80ae81ea7d217fbb711eb240f", element="f.FAE8ADEEB5442386DF025D4298B637E1.d.B39FB00D6157591D1DAFA3518C897EEC.e.268")>
+2025-03-06 16:23:46,666 - INFO - Aguardando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article por até 15 segundos.
+2025-03-06 16:23:46,685 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado com sucesso.
+2025-03-06 16:23:46,687 - INFO - Buscando o elemento xpath = //*[@id="ember237"].
+2025-03-06 16:23:46,709 - INFO - Elemento xpath = //*[@id="ember237"] encontrado.
+2025-03-06 16:23:46,755 - INFO - Buscando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article.
+2025-03-06 16:23:46,772 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado.
+2025-03-06 16:23:46,839 - INFO - Arquivo salvo em: c:\Users\xxis4\Desktop\linkedin-vagas-scraping\data\extracted_data\Data Engineer\desenvolvedor_abap_porto_alegre_rs_oportunidade_nova-divulga_vagas_br_vagas_carreiras.txt
+2025-03-06 16:23:46,841 - INFO - página: 1 | id: ember237 | info: ['DESENVOLVEDOR ABAP – PORTO ALEGRE – RS - OPORTUNIDADE NOVA', '-DIVULGA VAGAS BR / Vagas & Carreiras']
+2025-03-06 16:23:49,877 - INFO - obj_vaga = <selenium.webdriver.remote.webelement.WebElement (session="f777ebb80ae81ea7d217fbb711eb240f", element="f.FAE8ADEEB5442386DF025D4298B637E1.d.B39FB00D6157591D1DAFA3518C897EEC.e.269")>
+2025-03-06 16:23:53,348 - INFO - Aguardando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article por até 15 segundos.
+2025-03-06 16:23:53,381 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado com sucesso.
+2025-03-06 16:23:53,383 - INFO - Buscando o elemento xpath = //*[@id="ember238"].
+2025-03-06 16:23:53,411 - INFO - Elemento xpath = //*[@id="ember238"] encontrado.
+2025-03-06 16:23:53,502 - INFO - Buscando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article.
+2025-03-06 16:23:53,519 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado.
+2025-03-06 16:23:53,741 - INFO - Arquivo salvo em: c:\Users\xxis4\Desktop\linkedin-vagas-scraping\data\extracted_data\Data Engineer\data_engineer_databricks_with_verification-factored_.txt
+2025-03-06 16:23:53,765 - INFO - página: 1 | id: ember238 | info: ['Data Engineer (Databricks) with verification', 'Factored ']
+2025-03-06 16:23:56,801 - INFO - obj_vaga = <selenium.webdriver.remote.webelement.WebElement (session="f777ebb80ae81ea7d217fbb711eb240f", element="f.FAE8ADEEB5442386DF025D4298B637E1.d.B39FB00D6157591D1DAFA3518C897EEC.e.270")>
+2025-03-06 16:24:00,189 - INFO - Aguardando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article por até 15 segundos.
+2025-03-06 16:24:00,246 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado com sucesso.
+2025-03-06 16:24:00,250 - INFO - Buscando o elemento xpath = //*[@id="ember239"].
+2025-03-06 16:24:00,323 - INFO - Elemento xpath = //*[@id="ember239"] encontrado.
+2025-03-06 16:24:00,357 - INFO - Buscando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article.
+2025-03-06 16:24:00,371 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado.
+2025-03-06 16:24:00,418 - INFO - Arquivo salvo em: c:\Users\xxis4\Desktop\linkedin-vagas-scraping\data\extracted_data\Data Engineer\desenvolvedor_java_c_senior_sao_leopoldo_remoto_home_office_rs_oportunidade_nova-divulga_vagas_br_vagas_carreiras.txt
+2025-03-06 16:24:00,420 - INFO - página: 1 | id: ember239 | info: ['DESENVOLVEDOR JAVA C+ (SÊNIOR) – SÃO LEOPOLDO (REMOTO – HOME OFFICE) – RS - OPORTUNIDADE NOVA', '-DIVULGA VAGAS BR / Vagas & Carreiras']
+2025-03-06 16:24:03,460 - INFO - obj_vaga = <selenium.webdriver.remote.webelement.WebElement (session="f777ebb80ae81ea7d217fbb711eb240f", element="f.FAE8ADEEB5442386DF025D4298B637E1.d.B39FB00D6157591D1DAFA3518C897EEC.e.271")>
+2025-03-06 16:24:06,591 - INFO - Aguardando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article por até 15 segundos.
+2025-03-06 16:24:06,611 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado com sucesso.
+2025-03-06 16:24:06,612 - INFO - Buscando o elemento xpath = //*[@id="ember240"].
+2025-03-06 16:24:06,631 - INFO - Elemento xpath = //*[@id="ember240"] encontrado.
+2025-03-06 16:24:06,682 - INFO - Buscando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article.
+2025-03-06 16:24:06,701 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado.
+2025-03-06 16:24:06,769 - INFO - Arquivo salvo em: c:\Users\xxis4\Desktop\linkedin-vagas-scraping\data\extracted_data\Data Engineer\desenvolvedor_software_porto_alegre_e_regiao_rs_oportunidade_nova-divulga_vagas_br_vagas_carreiras.txt
+2025-03-06 16:24:06,772 - INFO - página: 1 | id: ember240 | info: ['DESENVOLVEDOR SOFTWARE – PORTO ALEGRE E REGIÃO – RS - OPORTUNIDADE NOVA', '-DIVULGA VAGAS BR / Vagas & Carreiras']
+2025-03-06 16:24:09,786 - INFO - obj_vaga = <selenium.webdriver.remote.webelement.WebElement (session="f777ebb80ae81ea7d217fbb711eb240f", element="f.FAE8ADEEB5442386DF025D4298B637E1.d.B39FB00D6157591D1DAFA3518C897EEC.e.272")>
+2025-03-06 16:24:12,911 - INFO - Aguardando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article por até 15 segundos.
+2025-03-06 16:24:12,950 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado com sucesso.
+2025-03-06 16:24:12,952 - INFO - Buscando o elemento xpath = //*[@id="ember241"].
+2025-03-06 16:24:12,975 - INFO - Elemento xpath = //*[@id="ember241"] encontrado.
+2025-03-06 16:24:13,019 - INFO - Buscando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article.
+2025-03-06 16:24:13,038 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado.
+2025-03-06 16:24:13,087 - INFO - Arquivo salvo em: c:\Users\xxis4\Desktop\linkedin-vagas-scraping\data\extracted_data\Data Engineer\desenvolvedor_de_software_porto_alegre_rs_oportunidade_nova-divulga_vagas_br_vagas_carreiras.txt
+2025-03-06 16:24:13,088 - INFO - página: 1 | id: ember241 | info: ['DESENVOLVEDOR DE SOFTWARE – PORTO ALEGRE – RS - OPORTUNIDADE NOVA', '-DIVULGA VAGAS BR / Vagas & Carreiras']
+2025-03-06 16:24:16,115 - INFO - obj_vaga = <selenium.webdriver.remote.webelement.WebElement (session="f777ebb80ae81ea7d217fbb711eb240f", element="f.FAE8ADEEB5442386DF025D4298B637E1.d.B39FB00D6157591D1DAFA3518C897EEC.e.273")>
+2025-03-06 16:24:19,479 - INFO - Aguardando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article por até 15 segundos.
+2025-03-06 16:24:19,528 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado com sucesso.
+2025-03-06 16:24:19,530 - INFO - Buscando o elemento xpath = //*[@id="ember242"].
+2025-03-06 16:24:19,553 - INFO - Elemento xpath = //*[@id="ember242"] encontrado.
+2025-03-06 16:24:19,598 - INFO - Buscando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article.
+2025-03-06 16:24:19,612 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado.
+2025-03-06 16:24:19,659 - INFO - Arquivo salvo em: c:\Users\xxis4\Desktop\linkedin-vagas-scraping\data\extracted_data\Data Engineer\densenvolvedor_de_sistemas_php_porto_alegre_rs_oportunidade_nova-divulga_vagas_br_vagas_carreiras.txt
+2025-03-06 16:24:19,660 - INFO - página: 1 | id: ember242 | info: ['DENSENVOLVEDOR DE SISTEMAS – PHP – PORTO ALEGRE – RS - OPORTUNIDADE NOVA', '-DIVULGA VAGAS BR / Vagas & Carreiras']
+2025-03-06 16:24:22,691 - INFO - obj_vaga = <selenium.webdriver.remote.webelement.WebElement (session="f777ebb80ae81ea7d217fbb711eb240f", element="f.FAE8ADEEB5442386DF025D4298B637E1.d.B39FB00D6157591D1DAFA3518C897EEC.e.274")>
+2025-03-06 16:24:25,818 - INFO - Aguardando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article por até 15 segundos.
+2025-03-06 16:24:25,848 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado com sucesso.
+2025-03-06 16:24:25,848 - INFO - Buscando o elemento xpath = //*[@id="ember243"].
+2025-03-06 16:24:25,879 - INFO - Elemento xpath = //*[@id="ember243"] encontrado.
+2025-03-06 16:24:25,918 - INFO - Buscando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article.
+2025-03-06 16:24:25,933 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado.
+2025-03-06 16:24:25,989 - INFO - Arquivo salvo em: c:\Users\xxis4\Desktop\linkedin-vagas-scraping\data\extracted_data\Data Engineer\desenvolvedor_frontend_angular_eldorado_do_sul_rs_oportunidade_nova-divulga_vagas_br_vagas_carreiras.txt
+2025-03-06 16:24:25,992 - INFO - página: 1 | id: ember243 | info: ['DESENVOLVEDOR FRONTEND ANGULAR – ELDORADO DO SUL – RS - OPORTUNIDADE NOVA', '-DIVULGA VAGAS BR / Vagas & Carreiras']
+2025-03-06 16:24:29,023 - INFO - obj_vaga = <selenium.webdriver.remote.webelement.WebElement (session="f777ebb80ae81ea7d217fbb711eb240f", element="f.FAE8ADEEB5442386DF025D4298B637E1.d.B39FB00D6157591D1DAFA3518C897EEC.e.275")>
+2025-03-06 16:24:32,162 - INFO - Aguardando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article por até 15 segundos.
+2025-03-06 16:24:32,319 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado com sucesso.
+2025-03-06 16:24:32,323 - INFO - Buscando o elemento xpath = //*[@id="ember244"].
+2025-03-06 16:24:32,414 - INFO - Elemento xpath = //*[@id="ember244"] encontrado.
+2025-03-06 16:24:32,476 - INFO - Buscando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article.
+2025-03-06 16:24:32,502 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado.
+2025-03-06 16:24:32,572 - INFO - Arquivo salvo em: c:\Users\xxis4\Desktop\linkedin-vagas-scraping\data\extracted_data\Data Engineer\analytics_engineer_junior-superlogica_tecnologias.txt
+2025-03-06 16:24:32,573 - INFO - página: 1 | id: ember244 | info: ['Analytics Engineer Junior', 'Superlógica Tecnologias']
+2025-03-06 16:24:35,612 - INFO - obj_vaga = <selenium.webdriver.remote.webelement.WebElement (session="f777ebb80ae81ea7d217fbb711eb240f", element="f.FAE8ADEEB5442386DF025D4298B637E1.d.B39FB00D6157591D1DAFA3518C897EEC.e.276")>
+2025-03-06 16:24:39,000 - INFO - Aguardando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article por até 15 segundos.
+2025-03-06 16:24:39,026 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado com sucesso.
+2025-03-06 16:24:39,027 - INFO - Buscando o elemento xpath = //*[@id="ember245"].
+2025-03-06 16:24:39,063 - INFO - Elemento xpath = //*[@id="ember245"] encontrado.
+2025-03-06 16:24:39,120 - INFO - Buscando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article.
+2025-03-06 16:24:39,135 - INFO - Elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article encontrado.
+2025-03-06 16:24:39,263 - INFO - Arquivo salvo em: c:\Users\xxis4\Desktop\linkedin-vagas-scraping\data\extracted_data\Data Engineer\desenvolvedor_android_brasilia_df_oportunidade_nova-divulga_vagas_br_vagas_carreiras.txt
+2025-03-06 16:24:39,301 - INFO - página: 1 | id: ember245 | info: ['DESENVOLVEDOR ANDROID – BRASÍLIA – DF - OPORTUNIDADE NOVA', '-DIVULGA VAGAS BR / Vagas & Carreiras']
+2025-03-06 16:24:42,341 - INFO - obj_vaga = <selenium.webdriver.remote.webelement.WebElement (session="f777ebb80ae81ea7d217fbb711eb240f", element="f.FAE8ADEEB5442386DF025D4298B637E1.d.B39FB00D6157591D1DAFA3518C897EEC.e.277")>
+2025-03-06 16:24:45,738 - INFO - Aguardando o elemento xpath = //*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div/div[1]/div/div[4]/article por até 15 segundos.
