@@ -98,11 +98,13 @@ class ScrapingLinkedin:
     def _quantidade_de_vagas(self, driver: WebDriver) -> str:
         qtd_vagas = self._find_element(driver, By.XPATH, '//*[@id="main"]/div/div[2]/div[1]/header/div[1]/small/div/span')
         logging.info(f"Quantidade de vagas: '{qtd_vagas.text}' para {self.cargo}.")
-        if int(qtd_vagas.text[:1]) < 25:
+        logging.info(f">> Quantidade de vagas int: {int(qtd_vagas.text.split(' ')[0])}")
+        if int(qtd_vagas.text.split(' ')[0]) < 25:
             logging.info("Paginação desativada.")
             return "< 25"
-        logging.info("Paginação ativada.")
-        return "> 25"
+        else:
+            logging.info("Paginação ativada.")
+            return "> 25"
 
     def _get_dynamic_page_id(self, pagination_container: List[WebElement]) -> str:
         try:
